@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background-color: #ffaf1c;
+    color: white;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#seconds, #tens {
+    font-size: 2em;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align:center;
+    }
+
+button {
+    width: 180px;
+    padding: 18px 10px;
+    font-size: 1.3em;
+    margin: 10px;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+div > button:hover {
+    transition: 0.5s;
+    color: #ffaf1c;
+    background-color: white;
+    cursor: pointer;
+}
